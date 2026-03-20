@@ -70,7 +70,18 @@
       border:6px solid transparent;
       border-top-color:white;
     }
-    .dot-wrapper:hover .tooltip{opacity:1;visibility:visible}
+    .dot-wrapper:hover .tooltip{
+      opacity:1;
+      visibility:visible
+    }
+
+    .dot-wrapper .tooltip {
+      transition: transform 0.2s ease;
+    }
+    
+    .dot-wrapper:hover {
+      transform: scale(1.1);
+    }
   </style>
 </head>
   
